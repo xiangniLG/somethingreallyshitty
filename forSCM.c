@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<stdio.h>
 #include<math.h>
-
+//require burning software to this into C8051
 void Init320();
 //Send a char on UART0
 void Send_RS(unsigned char ch)
