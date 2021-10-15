@@ -5,7 +5,7 @@
 #include <graphics.h>
 #include <conio.h>
 #include <Windows.h>
-
+//require to install graphics.h
 using namespace std;
 
 int transform(int y) {
