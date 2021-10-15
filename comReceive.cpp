@@ -74,7 +74,7 @@ int main(void)
 			Now = localtime(&timer);
 			char* timec = asctime(Now);
 			timec[strlen(timec) - 1] = '\0';
-			printf("%s--T:%d,H:%d\n", timec, str[0], str[1]);
+			printf("%s--T:%d,H:%d\n", timec, str[0], str[1]);//打印在标准输入输出区
 			fprintf(fp, "%d\n%d\n", str[0], str[1]);
 		}
 	}
