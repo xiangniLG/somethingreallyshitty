@@ -57,8 +57,8 @@ int main(void)
 	FILE* fp = fopen("file.txt", "wb");//创建txt，用于写入
 	time_t timer;
 	struct tm* Now;
-
-	while (1)
+	
+	while (1)//for(int i=0;i<10;i++)
 	{
 		//PurgeComm(hCom, PURGE_TXCLEAR | PURGE_RXCLEAR); //清空缓冲区
 		bReadStat = ReadFile(hCom, str, sizeof(str), &wCount, NULL);
